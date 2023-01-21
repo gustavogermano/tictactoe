@@ -29,22 +29,6 @@ body{
     height:520px;
 }
 
-form input, form label, form button{
-  display: block;
-  width: 100%;  
-  margin-bottom: 10px;
-}
-
-form input{
-   font-size: 24px;
-   height:50px;
-   padding:0 20px; 
-}
-
-form input:focus{
-    outline:1px solid var(--primeary-color);
-}
-
 .button-reset{
     border:none;
     background: var(--primeary-color);
@@ -78,10 +62,6 @@ form input:focus{
 
 .btn:hover{
     background-color: #9e9e9e;
-}
-
-.btn-eq:hover{
-    background-color: royalblue;
 }
 
 h1{
